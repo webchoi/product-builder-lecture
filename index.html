@@ -71,8 +71,10 @@
       min-height: 100vh;
       background: var(--page-bg);
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 24px;
       color: var(--text-color);
       padding: 20px;
       transition: background 0.25s ease, color 0.25s ease;
@@ -208,9 +210,6 @@
     }
 
     .partner-form {
-      margin-top: 34px;
-      padding-top: 28px;
-      border-top: 1px solid var(--field-border);
       text-align: left;
     }
 
@@ -332,6 +331,9 @@
       실제 당첨을 보장하지 않으며 재미와 참고용으로만 사용하세요.
     </p>
 
+  </div>
+
+  <div class="container">
     <form class="partner-form" action="https://formspree.io/f/xdabdvjp" method="POST">
       <h2>제휴 문의</h2>
       <p class="form-intro">광고, 콘텐츠, 서비스 제휴 제안을 남겨주시면 확인 후 회신드리겠습니다.</p>
